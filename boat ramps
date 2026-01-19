@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    // Beaufort County features
+    { "type": "Feature", "properties": { "name": "Broad River Boat Landing", "county": "Beaufort", "managing_agency": "SCDNR" }, "geometry": { "type": "Point", "coordinates": [-80.8129, 32.4391] } },
+    { "type": "Feature", "properties": { "name": "Station Creek Landing", "county": "Beaufort", "managing_agency": "Beaufort County" }, "geometry": { "type": "Point", "coordinates": [-80.6262, 32.4808] } },
+    ... (include all Beaufort features) ...,
+
+    // Charleston County features
+    { "type": "Feature", "properties": { "name": "Remley’s Point Landing", "county": "Charleston", "managing_agency": "SCDNR" }, "geometry": { "type": "Point", "coordinates": [-79.9068, 32.8075] } },
+    ... (include the rest) ...,
+
+    // Colleton, Dorchester, Georgetown, Horry, Jasper follow in order
+
+    // Last county’s final feature
+    { "type": "Feature", "properties": { "name": "Ebenezer Landing (Tullifinny Creek)", "county": "Jasper", "managing_agency": "SCDNR" }, "geometry": { "type": "Point", "coordinates": [-80.9014, 32.628] } }
+  ]
